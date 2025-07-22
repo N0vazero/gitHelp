@@ -1,1 +1,5 @@
 git log - to get info about date/author of last commits
+
+git diff - to print changes in files versions current and in last commit, DONT print changes with staged files
+git diff --staged - to print changes in files versions staged and in last commit
+git diff <A commit hash> <B commit hash/HEAD> - @_@
