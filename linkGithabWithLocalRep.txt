@@ -12,6 +12,6 @@ git push -u origin main/master
 For commit(not new):
 git status - check for changed files/dirs on git dir
 git add [file_name/.(all in working path)] - to add files for commit into global repository
-git commit -m/filename [String message] - to make description and commit changes
+git commit -m [String message] - to make description and commit changes
 git push - to globalize changes
 git push -u origin main
