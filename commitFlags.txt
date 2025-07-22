@@ -1,0 +1,3 @@
+git --amend -m (flag for replacment previous commit)
+git --amend --no-edit(flag for "copy" string from previous commit, MAY use for add forgotten 
+	files to commit)
