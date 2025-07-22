@@ -1,0 +1,16 @@
+* - anything string
+** - anything string in folders root 
+? - anything symbol
+! - put away from ignore
+[abc] - symbols in list
+[a-z] - symbols in range
+filename.txt - all files with name
+/filenames.txt - specified file on root
+folder/ - specified folder on root
+
+For example:
+
+texts/**/*.txt - ignore all files in all folders in texts-folder with txt-type
+
+!*[0-9].* - dont ignore files with name ended with number
+
