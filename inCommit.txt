@@ -1,0 +1,7 @@
+git --amend(flag for replacment previous commit) -m 
+git --amend --no-edit(flag for "copy" string from previous commit, MAY use for add forgotten 
+	files to commit)
+
+git restore --staged(put away files from staged status to modified/untracked/unstage reverse command for git add) <filename>
+
+git reset --hard <commit hash> - reset files TO files in commit
