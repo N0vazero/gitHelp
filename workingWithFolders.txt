@@ -1,0 +1,10 @@
+pwd - to know current path(directory) "print working directory"
+ls - to print dirs and files on working dir
+cd [.(curr)/..(higher)/dir_name/path] - to change working directory
+touch [file_name.format] - to create file 
+mkdir [dir_name] - to create directory 
+cp [file_name/dir_name/path dir_name/path] to copy file or dir to specified path
+mv [file_name/dir_name/path dir_name/path] to move file or dir to specified path
+rm [file_name/path] - to delete file
+rmdir [dir_name/path] - to delete dir
+rm -r [dir_name/path] - to delete dir if it not empty

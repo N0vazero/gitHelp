@@ -1,0 +1,15 @@
+launch java programm:
+cd <path> - to move to dir with code file
+javac -encoding UTF-8 <file_name.java> - to make byte-code file
+java -Dfile.encoding=UTF-8 <file_name!!!> - to launch byte-code file 
+
+launch a few files:
+cd <path>
+javac -d(dir) <dir name> -encoding UTF-8 *.java
+java -cp <dir name> <main()having class name>
+
+jar:
+jar c(create new file)f(file_name will be indicated)e(entrypoint class_name will be indicated)
+  <new file_name> <entrypoint class_name> -C <dir_name> . - to make archive (NEED BYTE-CODE FILES)
+java -jar <file_name> - to launch program
+
