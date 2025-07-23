@@ -1,0 +1,11 @@
+git branch - print local project branches
+git branch -a - print local and remote(with remotes/) project branches
+
+git branch "name" - create new branch
+
+git checkout <branch_name>- go to branch
+git checkout -b <branch_name> - create new branch and go to it
+
+git diff <branch1> <branch2> - print difference(*_*) between branches modified files
+git diff <branch1> <commit_hash_in_branch2> - print difference between modified files in b1 and commit in b2
+# MAY use '~N' to link to commit in branch, '~' without num equals '~1', '~0' - link to last commit
